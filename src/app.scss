@@ -1,0 +1,38 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 640px,
+  lg: 992px,
+  xl: 1300px
+);
+$enable-rounded: false;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 780px,
+  xxl: 780px
+) !default;
+
+// Then include the following
+@import 'bootstrap/scss/bootstrap.scss';
+
+
+main {
+    background: #FAFAFA;
+}
+.img-rounded {
+    border-radius: 50%;
+}
+
+.text-spacing {
+    letter-spacing: 2px;
+}
+
+.button {
+    background: transparent;
+    border: 2px solid gray;
+    padding: 1px 2px 1px 2px;
+    font-size: small;
+}
